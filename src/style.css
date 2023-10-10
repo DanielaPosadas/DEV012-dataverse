@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    margin: 5%
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    row-gap: 20px;
+    column-gap: 20px; 
+}
+
+li {
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
+    display: flex;
+    width: 270px;
+    height: 350px;
+    background-color: #6f6e6e;
+    text-align: center;
+    justify-content:center;
+    background-image: url("https://github.com/DanielaPosadas/DEV012-dataverse/blob/main/tarjetas%20MK-1.jpg");
+    
+}
+
+[itemprop="name"] {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+[itemprop="letality"] {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
