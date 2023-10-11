@@ -4,72 +4,30 @@
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <header>
-    <h1>Mortal Kombat videojuego</h1>
+    <img src="https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/logo%20MK-grande.png" width="50%">
   </header>
   <body>
     <script src="main.js" type="module"></script>
-    <div id="root">
-      <ul>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Scorpion</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Alto</dd>
-          </dl>
-        </li>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Sub Zero</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Alto</dd>
-          </dl>
-        </li>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Johnny Cage</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Moderado</dd>
-          </dl>
-        </li>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Raiden</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Alto</dd>
-          </dl>
-        </li>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Kitana</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Moderado</dd>
-          </dl>
-        </li>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Jade</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Moderado</dd>
-          </dl>
-        </li>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Noob Saibot</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Moderado</dd>
-          </dl>
-        </li>
-        <li>
-          <dl itemscope itemtype="MortalKombat">
-          <img src="URL_DE_LA_IMAGEN_GENERADA" alt="" />
-          <dt>Nombre:</dt><dd itemprop="name">Liu Kang</dd>
-          <dt>Nivel de letalidad:</dt><dd itemprop="letality">Alto</dd>
-          </dl>
-        </li>
-      </ul>
-    </div>
+    <div id="filtros">
+      <p id="por">Filtrar por</p>
+    <select data-testid="select-filter" name="letality">
+      <option></option>
+      <option value="letality">Letalidad</option>
+      <option value="weapons">Armas</option>
+      <option value="Kingdom">Reino</option>
+    </select>
+    <p id="por">Ordenar por</p>
+    <select data-testid="select-sort" name="alfabet">
+      <option></option>
+      <option value="asc">A - Z</option>
+      <option value="des">Z - A</option>
+      <option value="sexM">Mujer</option>
+      <option value="sexH">Hombre</option>
+    </select>
+    <button data-testid="button-clear">Limpiar</button>
+  </div>
   </body>
 </html>
