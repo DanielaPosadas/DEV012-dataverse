@@ -19,12 +19,15 @@ export const renderItems = (data) => {
     const dlDescriptiva = document.createElement('dl');
     ilista.appendChild(dlDescriptiva);
     //Agregar atributo itemscope e itemtype a los <dl>
-    dlDescriptiva.setAttribute("itemscope");
-    dlDescriptiva.setAttribute("itemtype");
+    dlDescriptiva.setAttribute("itemscope", "");
+    dlDescriptiva.setAttribute("itemtype", "Personajes-MK");
 
     //Meter <img> dentro de los <dl>
     const imagen = document.createElement('img');
     dlDescriptiva.appendChild(imagen);
+    imagen.src = personajes.imageUrl;
+
+    
 
     //Meter x4 <dt> dentro de los <dl>
     const dtalle1 = document.createElement('dt');

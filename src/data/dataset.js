@@ -4,7 +4,7 @@ export default [
     "name": "Scorpion",
     "shortDescription": "Luchador ninja conocido su habilidad para utilizar el fuego y las cadenas.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://img.freepik.com/foto-gratis/pareja-posando-sosteniendo-corazon-sonriendo_23-2148380072.jpg?w=740&t=st=1697082148~exp=1697082748~hmac=6ef6defca2fdb89eaf86494fbeaf73c73e1f30c0332fb40dbabd63718f50371d",
     "facts": {
       "skills": "Control de fuego, uso de cadenas y espada. Ataca a distancia.",
       "weapons": "Kunai con cadena y Espada Hanzo Hasashi.",
@@ -21,7 +21,7 @@ export default [
     "name": "Sub Zero",
     "shortDescription": "Luchador ninja conocido por su habilidad para controlar el hielo.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://img.freepik.com/foto-gratis/fondo-rojo-grunge_1048-9745.jpg?w=740&t=st=1697081354~exp=1697081954~hmac=fdf91c6dea13a4777c4b41e271e137159fc2a4dbedc6b89623f74a3a009040d6",
     "facts": {
       "skills": "Posee habilidades criománticas: manipular el hielo. Lanza proyectiles de hielo, crea armas y congela a sus oponentes.",
       "weapons": "Kori Blade (Cuchilla de Hielo).",
@@ -37,7 +37,7 @@ export default [
     "name": "Johnny Cage",
     "shortDescription": "Luchador conocido por ser una estrella de cine y experto en artes marciales.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://img.freepik.com/foto-gratis/fondo-rojo-grunge_1048-9745.jpg?w=740&t=st=1697081354~exp=1697081954~hmac=fdf91c6dea13a4777c4b41e271e137159fc2a4dbedc6b89623f74a3a009040d6",
     "facts": {
       "skills": "Experto en artes marciales, especialista en estilo de lucha que combina técnicas de karate y acrobacias.",
       "weapons": "Habilidades marciales y movimientos especiales: Shadow Kick y Green Energy Ball.",
