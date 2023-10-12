@@ -10,6 +10,12 @@ header {
     background-color: #7B6043;
     height: 150px;
     padding-bottom: 10px;
+}
+
+#header {
+    margin-top: 7px;
+    width: 780px;
+    height: 150px;
 
 }
 
@@ -81,6 +87,7 @@ li {
 
 img {
     margin-top: 15px;
+    height: 250px;
 }
 
 [itemprop="name"] {

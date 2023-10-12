@@ -8,6 +8,7 @@ export const renderItems = (data) => {
   const ulista = document.createElement('ul');
   contenedorLista.appendChild(ulista);
 
+
   function informacionPersonajes(){
     const ilista = document.createElement('li');
     contenedorLista.appendChild(ilista);
@@ -24,16 +25,18 @@ export const renderItems = (data) => {
 
     //Meter <img> dentro de los <dl>
     const imagen = document.createElement('img');
-    dlDescriptiva.appendChild(imagen);
-    imagen.src = personajes.imageUrl;
-
-    
+    dlDescriptiva.appendChild(imagen)
+    const todasIMG = document.querySelectorAll("dl img");
+    for(let i = 0; i < todasIMG.length; i++){
+      const asignar = todasIMG[i];
+      asignar.src = personajes[i].imageUrl;}
 
     //Meter x4 <dt> dentro de los <dl>
     const dtalle1 = document.createElement('dt');
     dlDescriptiva.appendChild(dtalle1);
     const dDescriptiva1 = document.createElement('dd');
     dlDescriptiva.appendChild(dDescriptiva1);
+
     //Agregar atributo 'itemprop' a los <dt>
     dDescriptiva1.setAttribute("itemprop","name");
 
@@ -56,6 +59,7 @@ export const renderItems = (data) => {
     dDescriptiva4.setAttribute("itemprop","kingdom");
     
   }
+  
   personajes.forEach(informacionPersonajes);
   console.log(contenedorLista);
 

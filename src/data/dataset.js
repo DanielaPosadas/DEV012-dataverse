@@ -4,7 +4,7 @@ export default [
     "name": "Scorpion",
     "shortDescription": "Luchador ninja conocido su habilidad para utilizar el fuego y las cadenas.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "https://img.freepik.com/foto-gratis/pareja-posando-sosteniendo-corazon-sonriendo_23-2148380072.jpg?w=740&t=st=1697082148~exp=1697082748~hmac=6ef6defca2fdb89eaf86494fbeaf73c73e1f30c0332fb40dbabd63718f50371d",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Control de fuego, uso de cadenas y espada. Ataca a distancia.",
       "weapons": "Kunai con cadena y Espada Hanzo Hasashi.",
@@ -21,7 +21,7 @@ export default [
     "name": "Sub Zero",
     "shortDescription": "Luchador ninja conocido por su habilidad para controlar el hielo.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "https://img.freepik.com/foto-gratis/fondo-rojo-grunge_1048-9745.jpg?w=740&t=st=1697081354~exp=1697081954~hmac=fdf91c6dea13a4777c4b41e271e137159fc2a4dbedc6b89623f74a3a009040d6",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-3.jpg",
     "facts": {
       "skills": "Posee habilidades criománticas: manipular el hielo. Lanza proyectiles de hielo, crea armas y congela a sus oponentes.",
       "weapons": "Kori Blade (Cuchilla de Hielo).",
@@ -37,7 +37,7 @@ export default [
     "name": "Johnny Cage",
     "shortDescription": "Luchador conocido por ser una estrella de cine y experto en artes marciales.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "https://img.freepik.com/foto-gratis/fondo-rojo-grunge_1048-9745.jpg?w=740&t=st=1697081354~exp=1697081954~hmac=fdf91c6dea13a4777c4b41e271e137159fc2a4dbedc6b89623f74a3a009040d6",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-5.jpg",
     "facts": {
       "skills": "Experto en artes marciales, especialista en estilo de lucha que combina técnicas de karate y acrobacias.",
       "weapons": "Habilidades marciales y movimientos especiales: Shadow Kick y Green Energy Ball.",
@@ -53,7 +53,7 @@ export default [
     "name": "Raiden",
     "shortDescription": "Conocido por ser el Dios del Trueno y protector de Earthrealm.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-6.jpg",
     "facts": {
       "skills": "Control del trueno, la electricidad y capacidad de teletransportación.",
       "weapons": "Dominio de poderes eléctricos y habilidad para canalizar la electricidad en ataques devastadores.",
@@ -69,7 +69,7 @@ export default [
     "name": "Kitana",
     "shortDescription": "Luchadora conocida por ser una princesa de Outworld y una experta en artes marciales.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Movimientos especiales con sus abanicos afilados y teletransportación.",
       "weapons": "War Fans: Abanicos afilados.",
@@ -85,7 +85,7 @@ export default [
     "name": "Jade",
     "shortDescription": "Luchadora conocida por ser aliada de Kitana y una experta en artes marciales.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat 9 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experta en artes marciales, agilidad, velocidad en combate y lanzar proyectiles verdes.",
       "weapons": "Bastón luminoso, triblade: cuchilla.",
@@ -101,7 +101,7 @@ export default [
     "name": "Noob Saibot",
     "shortDescription": "Conocido por su aspecto sombrío y su relación con el Sub-Zero original.",
     "videogamesAppearances": "Kombat II, Mortal Kombat 3, Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Capacidad de crear portales para realizar ataques sorpresa y creación de un doble sombrío.",
       "weapons": "Manipulación de sombras y energía oscura.",
@@ -117,7 +117,7 @@ export default [
     "name": "Baraka",
     "shortDescription": "Luchador tarkatano (raza de guerreros con dientes afilados y cuchillas en sus brazos).",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat Trilogy, Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Manejo de cuchillas afiladas realizando ataques rápidos y letales.",
       "weapons": "Cuchillas tarkatanas retráctiles.",
@@ -133,7 +133,7 @@ export default [
     "name": "Liu Kang",
     "shortDescription": "Luchador conocido por ser un monje shaolin y un defensor de Earthrealm.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en artes marciales, manejo de nunchaku y fuego.",
       "weapons": "Habilidades de lucha basadas en el fuego: Bicycle Kick y Dragon Fire. Nunchaku.",
@@ -149,7 +149,7 @@ export default [
     "name": "Kung Lao",
     "shortDescription": "Luchador conocido por ser un monje shaolin y un experto en artes marciales.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en artes marciales y capacidad de teletransportación.",
       "weapons": "Sombrero con hoja de metal afilada.",
@@ -165,7 +165,7 @@ export default [
     "name": "Jax Briggs",
     "shortDescription": "Conocido por ser un miembro de las Fuerzas Especiales de Estados Unidos.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en artes marciales, conocido por su fuerza y habilidades en combate.",
       "weapons": "Brazos mecánicos potenciados.",
@@ -181,7 +181,7 @@ export default [
     "name": "Sonya Blade",
     "shortDescription": "Luchadora conocida por ser una agente de las Fuerzas Especiales de Estados Unidos y una experta en artes marciales.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experta en artes marciales, conocida por su estilo de lucha rápido y preciso.",
       "weapons": "Habilidades marciales y movimientos especiales en combate con proyectiles: Kiss of Death.",
@@ -197,7 +197,7 @@ export default [
     "name": "Kano",
     "shortDescription": "Conocido por ser un mercenario cibernético y un miembro del clan criminal Black Dragon.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en combate cuerpo a cuerpo, conocido por su estilo de lucha brutal.",
       "weapons": "Cuchillos y su ojo cibernético que permite lanzar rayos láser.",
@@ -213,7 +213,7 @@ export default [
     "name": "Kabal",
     "shortDescription": "Luchador conocido por ser un ex miembro del Black Dragon y su apariencia distintiva al usar un respirador.",
     "videogamesAppearances": "Mortal Kombat 3, Mortal Kombat Trilogy, Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Velocidad extrema y estilo de lucha basado en movimientos rápidos.",
       "weapons": "Ganchos afilados.",
@@ -229,7 +229,7 @@ export default [
     "name": "Erron Black",
     "shortDescription": "Luchador conocido por ser un pistolero y un forajido del Viejo Oeste.",
     "videogamesAppearances": "Erron Black ha aparecido en varios juegos de la serie Mortal Kombat, incluyendo Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en el uso de armas de fuego y armas blancas.",
       "weapons": "evólveres, rifles y cuchillos.",
@@ -245,7 +245,7 @@ export default [
     "name": "Skarlet",
     "shortDescription": "Conocida hechicera asesina que utiliza la sangre como su principal arma.",
     "videogamesAppearances": "Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Maestra en el arte de manipular la sangre y ataques cuerpo a cuerpo.",
       "weapons": "Utiliza su sangre para crear dagas, espadas y otros objetos afilados.",
@@ -261,7 +261,7 @@ export default [
     "name": "Frost",
     "shortDescription": "Humana-cyborg conocida por ser una aprendiz de Sub-Zero y por su control de la criomancia.",
     "videogamesAppearances": "Mortal Kombat: Deadly Alliance, Mortal Kombat: Armageddon, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Capacidad de controlar el hielo, el frío y ataques cuerpo a cuerpo congelantes.",
       "weapons": "Kori daggers (cuchillos de hielo) y espadas.",
@@ -277,7 +277,7 @@ export default [
     "name": "Kotal Kahn",
     "shortDescription": "Luchador conocido por ser un guerrero azteca y el emperador de Outworld.",
     "videogamesAppearances": "Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Movimientos especiales que involucran la manipulación de la energía solar y la sangre.",
       "weapons": "Macuahuitl (espada con hoja de obsidiana) y tecpatl (cuchillos).",
@@ -293,7 +293,7 @@ export default [
     "name": "Cetrion",
     "shortDescription": "Diosa elemental que controla los elementos naturales: la tierra, el fuego, el agua y el aire.",
     "videogamesAppearances": "Mortal Kombat 11 y es parte de la expansión Aftermath del juego.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Controla y manipula los elementos naturales.",
       "weapons": "Controlar los elementos naturales, sin necesidad de armas físicas.",
@@ -309,7 +309,7 @@ export default [
     "name": "Cassie Cage",
     "shortDescription": "Conocida por ser la hija de Johnny Cage y Sonya Blade, y una agente de las Fuerzas Especiales de Estados Unidos.",
     "videogamesAppearances": "Mortal Kombat X, Mortal Kombat 11 y otros juegos de la serie.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Entrenada en artes marciales y combate táctico.",
       "weapons": "Armas de fuego: pistolas, ametralladoras y granadas.",
@@ -325,7 +325,7 @@ export default [
     "name": "Mileena",
     "shortDescription": "Conocida por ser un clon de Kitana y una luchadora sedienta de sangre y violencia.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Luchadora ágil y letal. Movimientos rápidos, ataques acrobáticos y ataques letales con su boca llena de dientes afilados.",
       "weapons": "Sai: dagas con hojas en forma de gancho.",
@@ -341,7 +341,7 @@ export default [
     "name": "Reptile",
     "shortDescription": "Conocido por ser un miembro de la raza de los saurios y por su apariencia reptiliana.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Movimientos especiales que involucran su lengua extensible, ataques ácidos y la capacidad de camuflarse en su entorno.",
       "weapons": "Ataques con su lengua extensible, ácidos y movimientos especiales.",
@@ -357,7 +357,7 @@ export default [
     "name": "Goro",
     "shortDescription": "Conocido por ser un príncipe Shokan y un guerrero de cuatro brazos.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat Trilogy y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Ataques devastadores cuerpo a cuerpo, patadas y puñetazos poderosos.",
       "weapons": "Poderosas extremidades y fuerza bruta en combate:Punch Walk y dragon fangs:guantes con garfios.",
@@ -373,7 +373,7 @@ export default [
     "name": "Shinnok",
     "shortDescription": "Dios antiguo caído y señor del Infierno conocido por su malicia y su sed de poder.",
     "videogamesAppearances": "Mortal Kombat 4, Mortal Kombat X y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Hechicero poderoso que posee habilidades mágicas. Puede lanzar proyectiles y manejar energía oscura.",
       "weapons": "La vara de Shinnok, su amuleto y poderes mágicos.",
@@ -389,7 +389,7 @@ export default [
     "name": "Quan Chi",
     "shortDescription": "Luchador conocido por ser un hechicero y maestro de la magia negra.",
     "videogamesAppearances": "Mortal Kombat Mythologies: Sub-Zero, Mortal Kombat 4, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "[Puedes incluir aquí la URL de una imagen de Scorpion si lo deseas].",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-5.jpg",
     "facts": {
       "skills": "Hechicero con habilidades mágicas: Invocación de demonios, proyecciones de energía, teletransportación y manipulación de almas.",
       "weapons": "Su amuleto y poderes de magia oscura.",
