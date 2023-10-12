@@ -383,7 +383,7 @@ export default [
     "extraInfoBotones": {
       "imageSource": ""
     }
-  }
+  },
   {
     "id": "Quan-Chi",
     "name": "Quan Chi",
