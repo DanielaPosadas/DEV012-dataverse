@@ -7,7 +7,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Control de fuego, uso de cadenas y espada. Ataca a distancia.",
-      "weapons": "Kunai con cadena y Espada Hanzo Hasashi.",
+      "weapons": "Kunai cadena y espada Hanzo Hasashi.",
       "lethalityLevel": "Alto",
       "kingdom": "Earthrealm"
     },
@@ -40,7 +40,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-5.jpg",
     "facts": {
       "skills": "Experto en artes marciales, especialista en estilo de lucha que combina técnicas de karate y acrobacias.",
-      "weapons": "Habilidades marciales y movimientos especiales: Shadow Kick y Green Energy Ball.",
+      "weapons": "Habilidades marciales.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Earthrealm"
     },
@@ -56,7 +56,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-6.jpg",
     "facts": {
       "skills": "Control del trueno, la electricidad y capacidad de teletransportación.",
-      "weapons": "Dominio de poderes eléctricos y habilidad para canalizar la electricidad en ataques devastadores.",
+      "weapons": "Dominio de poderes eléctricos.",
       "lethalityLevel": "Alto",
       "kingdom": "Earthrealm"
     },
@@ -69,7 +69,7 @@ export default [
     "name": "Kitana",
     "shortDescription": "Luchadora conocida por ser una princesa de Outworld y una experta en artes marciales.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
-    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-6.jpg",
     "facts": {
       "skills": "Movimientos especiales con sus abanicos afilados y teletransportación.",
       "weapons": "War Fans: Abanicos afilados.",
@@ -88,7 +88,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experta en artes marciales, agilidad, velocidad en combate y lanzar proyectiles verdes.",
-      "weapons": "Bastón luminoso, triblade: cuchilla.",
+      "weapons": "Bastón luminoso y triblade: cuchilla.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Outworld"
     },
@@ -104,7 +104,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Capacidad de crear portales para realizar ataques sorpresa y creación de un doble sombrío.",
-      "weapons": "Manipulación de sombras y energía oscura.",
+      "weapons": "Manipulación de energía oscura.",
       "lethalityLevel": "Moderado",
       "kingdom": "Netherrealm"
     },
@@ -136,7 +136,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en artes marciales, manejo de nunchaku y fuego.",
-      "weapons": "Habilidades de lucha basadas en el fuego: Bicycle Kick y Dragon Fire. Nunchaku.",
+      "weapons": "Habilidades de lucha con fuego.",
       "lethalityLevel": "Alto",
       "kingdom": "Earthrealm"
     },
@@ -184,7 +184,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experta en artes marciales, conocida por su estilo de lucha rápido y preciso.",
-      "weapons": "Habilidades marciales y movimientos especiales en combate con proyectiles: Kiss of Death.",
+      "weapons": "Habilidades marciales con proyectiles.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Earthrealm"
     },
@@ -200,7 +200,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en combate cuerpo a cuerpo, conocido por su estilo de lucha brutal.",
-      "weapons": "Cuchillos y su ojo cibernético que permite lanzar rayos láser.",
+      "weapons": "Cuchillos y rayos láser.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Outworld"
     },
@@ -232,7 +232,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Experto en el uso de armas de fuego y armas blancas.",
-      "weapons": "evólveres, rifles y cuchillos.",
+      "weapons": "Revólveres, rifles y cuchillos.",
       "lethalityLevel": "Bajo",
       "kingdom": "Outworld"
     },
@@ -248,7 +248,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Maestra en el arte de manipular la sangre y ataques cuerpo a cuerpo.",
-      "weapons": "Utiliza su sangre para crear dagas, espadas y otros objetos afilados.",
+      "weapons": "Usa su sangre y crea objetos afilados.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Outworld"
     },
@@ -264,7 +264,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Capacidad de controlar el hielo, el frío y ataques cuerpo a cuerpo congelantes.",
-      "weapons": "Kori daggers (cuchillos de hielo) y espadas.",
+      "weapons": "Kori daggers (cuchillos de hielo).",
       "lethalityLevel": "Moderado",
       "kingdom": "Earthrealm"
     },
@@ -280,7 +280,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Movimientos especiales que involucran la manipulación de la energía solar y la sangre.",
-      "weapons": "Macuahuitl (espada con hoja de obsidiana) y tecpatl (cuchillos).",
+      "weapons": "Macuahuitl (espada de obsidiana).",
       "lethalityLevel": "Moderado",
       "kingdom": "Outworld"
     },
@@ -296,7 +296,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Controla y manipula los elementos naturales.",
-      "weapons": "Controlar los elementos naturales, sin necesidad de armas físicas.",
+      "weapons": "Controlar los elementos naturales.",
       "lethalityLevel": "Moderado",
       "kingdom": "Cielo"
     },
@@ -312,7 +312,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Entrenada en artes marciales y combate táctico.",
-      "weapons": "Armas de fuego: pistolas, ametralladoras y granadas.",
+      "weapons": "Armas de fuego.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Earthrealm"
     },
@@ -328,7 +328,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Luchadora ágil y letal. Movimientos rápidos, ataques acrobáticos y ataques letales con su boca llena de dientes afilados.",
-      "weapons": "Sai: dagas con hojas en forma de gancho.",
+      "weapons": "Sai: dagas en forma de gancho.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Outworld"
     },
@@ -344,7 +344,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Movimientos especiales que involucran su lengua extensible, ataques ácidos y la capacidad de camuflarse en su entorno.",
-      "weapons": "Ataques con su lengua extensible, ácidos y movimientos especiales.",
+      "weapons": "Ataques con su lengua y ácidos.",
       "lethalityLevel": "Moderado-bajo",
       "kingdom": "Outworld"
     },
@@ -360,7 +360,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Ataques devastadores cuerpo a cuerpo, patadas y puñetazos poderosos.",
-      "weapons": "Poderosas extremidades y fuerza bruta en combate:Punch Walk y dragon fangs:guantes con garfios.",
+      "weapons": "Poderosas extremidades y fuerza.",
       "lethalityLevel": "Moderado",
       "kingdom": "Outworld"
     },
@@ -376,7 +376,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
     "facts": {
       "skills": "Hechicero poderoso que posee habilidades mágicas. Puede lanzar proyectiles y manejar energía oscura.",
-      "weapons": "La vara de Shinnok, su amuleto y poderes mágicos.",
+      "weapons": "La vara de Shinnok y poderes mágicos.",
       "lethalityLevel": "Moderado",
       "kingdom": "Netherrealm"
     },
@@ -392,7 +392,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-5.jpg",
     "facts": {
       "skills": "Hechicero con habilidades mágicas: Invocación de demonios, proyecciones de energía, teletransportación y manipulación de almas.",
-      "weapons": "Su amuleto y poderes de magia oscura.",
+      "weapons": "Poderes de magia oscura.",
       "lethalityLevel": "Moderado",
       "kingdom": "Netherrealm"
     },

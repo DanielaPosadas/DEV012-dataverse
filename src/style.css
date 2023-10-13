@@ -74,8 +74,8 @@ li {
     display:flex;
     font-family: 'Cinzel', serif;
     color: #ffffff;
-    width: 270px;
-    height: 390px;
+    width: 240px;
+    height: 450px;
     background-color: #6f6e6e;
     text-align: center;
     justify-content:center;
@@ -86,36 +86,47 @@ li {
 }
 
 img {
-    margin-top: 15px;
+    margin-top: 10px;
     height: 250px;
+    justify-content: center;
 }
 
 dt {
-    display: flex;
+    margin: 0;
+    margin-top: 5px;
     font-size: 10px;
-    text-align: justify;
-    justify-content: center;
+}
+
+dd{
+    margin: 0;
 }
 
 [itemprop="name"] {
     display: flex;
     font-size: 22px;
+    font-weight: bold;
+    text-align: center;
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 [itemprop="letality"] {
-    display: grid;
-    font-family: 'Balthazar', serif;
-    grid-template-columns: repeat(2, 130px);
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 10px;
-    text-align:start;
+    font-size: 8px;
+    margin-top: 3px;
+
 }
 
 [itemprop="weapons"]{
-    display: grid;
-    grid-template-columns: repeat(2, 130px);
-    font-family: 'Balthazar', serif;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
     font-size: 10px;
-    text-align: end;
+    margin-top: 2px;
+}
+
+[itemprop="kingdom"]{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-top: 2px;
 }

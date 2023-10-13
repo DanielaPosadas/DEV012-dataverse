@@ -78,6 +78,11 @@ export const renderItems = (data) => {
     const dDescriptiva4 = document.createElement('dd');
     dlDescriptiva.appendChild(dDescriptiva4);
     dDescriptiva4.setAttribute("itemprop","kingdom");
+    //Meter armas en <dt>
+    const todasDT4 = document.querySelectorAll("dd[itemprop=kingdom]");
+    for(let i = 0; i < todasDT4.length; i++){
+      const asignar4 = todasDT4[i];
+      asignar4.textContent = personajes[i].facts.kingdom};
 
    
     
