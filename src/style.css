@@ -90,26 +90,32 @@ img {
     height: 250px;
 }
 
-[itemprop="name"] {
+dt {
     display: flex;
-    font-weight: bold;
-    font-size: 22px;
-    text-align: center;
+    font-size: 10px;
+    text-align: justify;
+    justify-content: center;
 }
 
-[itemprop="name2"]{
-    margin-top: 10px;
-    font-size: 12px;
+[itemprop="name"] {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
 }
 
 [itemprop="letality"] {
-    margin-top: 5px;
+    display: grid;
+    font-family: 'Balthazar', serif;
+    grid-template-columns: repeat(2, 130px);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
+    text-align:start;
 }
 
-[itemprop="letality2"]{
-    display: flex;
-    margin-left: 70px;
-    font-size: 14px;
+[itemprop="weapons"]{
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    font-family: 'Balthazar', serif;
+    font-size: 10px;
+    text-align: end;
 }
