@@ -297,7 +297,7 @@ export default [
     "facts": {
       "skills": "Controla y manipula los elementos naturales.",
       "weapons": "Controlar los elementos naturales.",
-      "lethalityLevel": "Moderado",
+      "lethalityLevel": "Alto",
       "kingdom": "Cielo"
     },
     "extraInfoBotones": {

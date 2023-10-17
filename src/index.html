@@ -12,15 +12,15 @@
   <body>
     <script src="main.js" type="module"></script>
     <div id="filtros">
-      <p id="por">Filtrar por</p>
-    <select data-testid="select-filter" name="letality">
+      <label for="filtrar-por">Filtrar por</label>
+      <select data-testid="select-filter" name="letality" id="filtrar-por">
       <option></option>
       <option value="letality">Letalidad</option>
       <option value="weapons">Armas</option>
       <option value="Kingdom">Reino</option>
     </select>
-    <p id="por">Ordenar por</p>
-    <select data-testid="select-sort" name="alfabet">
+    <label for="ordenar-por">Ordenar por</label>
+    <select data-testid="select-sort" name="alfabet" id="ordenar-por">
       <option></option>
       <option value="asc">A - Z</option>
       <option value="des">Z - A</option>

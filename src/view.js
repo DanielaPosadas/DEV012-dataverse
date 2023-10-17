@@ -1,5 +1,5 @@
 export const renderItems = (data) => {
-  console.log(data)
+  //console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
   const personajes = data;
   const contenedorLista = document.getElementById("root");
@@ -89,7 +89,7 @@ export const renderItems = (data) => {
   }
   
   personajes.forEach(informacionPersonajes);
-  console.log(contenedorLista);
+  //console.log(contenedorLista);
 
   return personajes;
 
