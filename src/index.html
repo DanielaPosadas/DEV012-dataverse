@@ -12,18 +12,26 @@
   <body>
     <script src="main.js" type="module"></script>
     <div id="filtros">
-      <label for="filtrar-por">Filtrar por</label>
-      <select data-testid="select-filter" name="letality" id="filtrar-por">
+      <label for="filtrar-por-letality">Filtrar por letalidad</label>
+      <select data-testid="select-filter" name="letality" id="filtrar-por-letality">
       <option></option>
-      <option value="letality">Letalidad</option>
-      <option value="weapons">Armas</option>
-      <option value="Kingdom">Reino</option>
+      <option value="Alto">Alto</option>
+      <option value="Moderado">Moderado</option>
+      <option value="Moderado-bajo">Moderado-bajo</option>
+      <option value="Bajo">Bajo</option>
+    </select>
+    <label for="filtrar-por-kingdom">Filtrar por reino</label>
+      <select data-testid="select-filter" name="Kingdom" id="filtrar-por-kingdom">
+      <option></option>
+      <option value="Cielo">Cielo</option>
+      <option value="Earthrealm">Earthrealm</option>
+      <option value="Outworld">Outworld</option>
+      <option value="Netherrealm">Netherrealm</option>
     </select>
     <label for="ordenar-por">Ordenar por</label>
     <select data-testid="select-sort" name="alfabet" id="ordenar-por">
       <option></option>
       <option value="asc">A - Z</option>
-      <option value="des">Z - A</option>
       <option value="sexM">Mujer</option>
       <option value="sexH">Hombre</option>
     </select>

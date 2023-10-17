@@ -3,6 +3,10 @@ import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
 
+const contenedorLista = document.getElementById("root");
+contenedorLista.appendChild(renderItems(data));
+
+
 //Las tarjetas
 const tarjetas = document.querySelectorAll('[itemprop="lethalityLevel"]')
 const boton = document.querySelector('[data-testid="button-clear"]');
@@ -24,7 +28,14 @@ function filtros(){
     const personajes = data;
     const resultado = example(personajes);
     console.log(resultado);
+
 }
+//Ordenar las tarjetas según letalidad
+filtros(document.querySelectorAll('ul li[itemtype="Personajes-MK"]'));
+
+
+
+   
 
 //Seleccionar la opcion del ordenar
 const ordenar = document.querySelector('[data-testid="select-sort"]');
@@ -40,4 +51,4 @@ function ordenado() {
 
 
 
-console.log(example, renderItems(data), data);
+//console.log(example, renderItems(data), data);
