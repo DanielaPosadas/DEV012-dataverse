@@ -15,7 +15,7 @@ return todos;
 //const filtro1 = personajes.filter(items => items.facts.lethalityLevel === "Alto");
 };
 
-//FILTRO ARMAS
+
 export const anotherExample = (personajes) => {
   return [];
 };
