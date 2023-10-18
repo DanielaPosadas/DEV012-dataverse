@@ -1,21 +1,62 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-export const example = (personajes) => {
-  
-//Ordenar el nivel de letalidad
-const orden = {"Alto": 1, "Moderado": 2, "Moderado-bajo": 3, "Bajo": 4};
-let todos = personajes.sort((a , b) => {
-  if(orden[a.facts.lethalityLevel] < orden[b.facts.lethalityLevel]){
-    return -1;
-  } else if (orden[a.facts.lethalityLevel] > orden[b.facts.lethalityLevel]){
-    return 1;
-  } else {return 0};
+// FUNCIONES FILTRO DE LETALIDAD
+export const filtroLet1 = (data) => {
+  const filtro1 = data.filter(items => items.facts.lethalityLevel === "Alto");
+  return filtro1;
+};  
+
+export const filtroLet2 = (data) => {
+  const filtro2 = data.filter(items => items.facts.lethalityLevel === "Moderado");
+  return filtro2;
+};
+
+export const filtroLet3 = (data) => {
+  const filtro3 = data.filter(items => items.facts.lethalityLevel === "Moderado-bajo");
+  return filtro3;
+};
+
+export const filtroLet4 = (data) => {
+  const filtro4 = data.filter(items => items.facts.lethalityLevel === "Bajo");
+  return filtro4; 
+};
+
+// FUNCIONES FILTRO DE REINO
+export const filtroRein1 = (data) => {
+  const filtroRein1 = data.filter(items => items.facts.kingdom === "Cielo");
+  return filtroRein1;
+};
+
+export const filtroRein2 = (data) => {
+  const filtroRein2 = data.filter(items => items.facts.kingdom === "Earthrealm");
+  return filtroRein2;
+};
+
+export const filtroRein3 = (data) => {
+  const filtroRein3 = data.filter(items => items.facts.kingdom === "Outworld");
+  return filtroRein3;
+};
+
+export const filtroRein4 = (data) => {
+  const filtroRein4 = data.filter(items => items.facts.kingdom === "Netherrealm");
+  return filtroRein4;
+};
+
+// FUNCIONES ORDENAMIENTO GÉNERO
+export const ordenaGen = (data) => {
+//const orden = {"Alto": 1, "Moderado": 2, "Moderado-bajo": 3, "Bajo": 4};
+const ordenGenM = data.sort((a , b) => {
+  if(a.gender === "Mujer"){
+    return -1
+  } else {return 1}
 });
-return todos;
-
-//const filtro1 = personajes.filter(items => items.facts.lethalityLevel === "Alto");
+return ordenGenM;
 };
 
-
-export const anotherExample = (personajes) => {
-  return [];
-};
+export const ordenaGen2 = (data) => {
+  //const orden = {"Alto": 1, "Moderado": 2, "Moderado-bajo": 3, "Bajo": 4};
+  const ordenGenH = data.sort((a , b) => {
+    if(a.gender === "Hombre"){
+      return -1
+    } else {return 1}
+  });
+  return ordenGenH;
+  };

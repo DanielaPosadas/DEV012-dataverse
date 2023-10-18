@@ -2,6 +2,7 @@ export default [
   {
     "id": "Scorpion",
     "name": "Scorpion",
+    "gender": "Hombre",
     "shortDescription": "Luchador ninja conocido su habilidad para utilizar el fuego y las cadenas.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -19,6 +20,7 @@ export default [
   {
     "id": "Sub-Zero",
     "name": "Sub Zero",
+    "gender": "Hombre",
     "shortDescription": "Luchador ninja conocido por su habilidad para controlar el hielo.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-3.jpg",
@@ -35,6 +37,7 @@ export default [
   {
     "id": "Johnny-Cage",
     "name": "Johnny Cage",
+    "gender": "Hombre",
     "shortDescription": "Luchador conocido por ser una estrella de cine y experto en artes marciales.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-5.jpg",
@@ -51,6 +54,7 @@ export default [
   {
     "id": "Raiden",
     "name": "Raiden",
+    "gender": "Hombre",
     "shortDescription": "Conocido por ser el Dios del Trueno y protector de Earthrealm.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-6.jpg",
@@ -67,6 +71,7 @@ export default [
   {
     "id": "Kitana",
     "name": "Kitana",
+    "gender": "Mujer",
     "shortDescription": "Luchadora conocida por ser una princesa de Outworld y una experta en artes marciales.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-6.jpg",
@@ -83,6 +88,7 @@ export default [
   {
     "id": "Jade",
     "name": "Jade",
+    "gender": "Mujer",
     "shortDescription": "Luchadora conocida por ser aliada de Kitana y una experta en artes marciales.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat 9 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -99,6 +105,7 @@ export default [
   {
     "id": "Noob-Saibot",
     "name": "Noob Saibot",
+    "gender": "Hombre",
     "shortDescription": "Conocido por su aspecto sombrío y su relación con el Sub-Zero original.",
     "videogamesAppearances": "Kombat II, Mortal Kombat 3, Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -115,6 +122,7 @@ export default [
   {
     "id": "Baraka",
     "name": "Baraka",
+    "gender": "Hombre",
     "shortDescription": "Luchador tarkatano (raza de guerreros con dientes afilados y cuchillas en sus brazos).",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat Trilogy, Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -131,6 +139,7 @@ export default [
   {
     "id": "Liu-Kang",
     "name": "Liu Kang",
+    "gender": "Hombre",
     "shortDescription": "Luchador conocido por ser un monje shaolin y un defensor de Earthrealm.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -147,6 +156,7 @@ export default [
   {
     "id": "Kung-Lao",
     "name": "Kung Lao",
+    "gender": "Hombre",
     "shortDescription": "Luchador conocido por ser un monje shaolin y un experto en artes marciales.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -163,6 +173,7 @@ export default [
   {
     "id": "Jax-Briggs",
     "name": "Jax Briggs",
+    "gender": "Hombre",
     "shortDescription": "Conocido por ser un miembro de las Fuerzas Especiales de Estados Unidos.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -179,6 +190,7 @@ export default [
   {
     "id": "Sonya-Blade",
     "name": "Sonya Blade",
+    "gender": "Mujer",
     "shortDescription": "Luchadora conocida por ser una agente de las Fuerzas Especiales de Estados Unidos y una experta en artes marciales.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -195,6 +207,7 @@ export default [
   {
     "id": "Kano",
     "name": "Kano",
+    "gender": "Hombre",
     "shortDescription": "Conocido por ser un mercenario cibernético y un miembro del clan criminal Black Dragon.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -211,6 +224,7 @@ export default [
   {
     "id": "Kabal",
     "name": "Kabal",
+    "gender": "Hombre",
     "shortDescription": "Luchador conocido por ser un ex miembro del Black Dragon y su apariencia distintiva al usar un respirador.",
     "videogamesAppearances": "Mortal Kombat 3, Mortal Kombat Trilogy, Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -227,6 +241,7 @@ export default [
   {
     "id": "Erron-Black",
     "name": "Erron Black",
+    "gender": "Hombre",
     "shortDescription": "Luchador conocido por ser un pistolero y un forajido del Viejo Oeste.",
     "videogamesAppearances": "Erron Black ha aparecido en varios juegos de la serie Mortal Kombat, incluyendo Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -243,6 +258,7 @@ export default [
   {
     "id": "Skarlet",
     "name": "Skarlet",
+    "gender": "Mujer",
     "shortDescription": "Conocida hechicera asesina que utiliza la sangre como su principal arma.",
     "videogamesAppearances": "Mortal Kombat 9, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -259,6 +275,7 @@ export default [
   {
     "id": "Frost",
     "name": "Frost",
+    "gender": "Mujer",
     "shortDescription": "Humana-cyborg conocida por ser una aprendiz de Sub-Zero y por su control de la criomancia.",
     "videogamesAppearances": "Mortal Kombat: Deadly Alliance, Mortal Kombat: Armageddon, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -275,6 +292,7 @@ export default [
   {
     "id": "Kotal-Kahn",
     "name": "Kotal Kahn",
+    "gender": "Hombre",
     "shortDescription": "Luchador conocido por ser un guerrero azteca y el emperador de Outworld.",
     "videogamesAppearances": "Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -291,6 +309,7 @@ export default [
   {
     "id": "Cetrion",
     "name": "Cetrion",
+    "gender": "Mujer",
     "shortDescription": "Diosa elemental que controla los elementos naturales: la tierra, el fuego, el agua y el aire.",
     "videogamesAppearances": "Mortal Kombat 11 y es parte de la expansión Aftermath del juego.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -307,6 +326,7 @@ export default [
   {
     "id": "Cassie-Cage",
     "name": "Cassie Cage",
+    "gender": "Mujer",
     "shortDescription": "Conocida por ser la hija de Johnny Cage y Sonya Blade, y una agente de las Fuerzas Especiales de Estados Unidos.",
     "videogamesAppearances": "Mortal Kombat X, Mortal Kombat 11 y otros juegos de la serie.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -323,6 +343,7 @@ export default [
   {
     "id": "Mileena",
     "name": "Mileena",
+    "gender": "Mujer",
     "shortDescription": "Conocida por ser un clon de Kitana y una luchadora sedienta de sangre y violencia.",
     "videogamesAppearances": "Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -339,6 +360,7 @@ export default [
   {
     "id": "Reptile",
     "name": "Reptile",
+    "gender": "Hombre",
     "shortDescription": "Conocido por ser un miembro de la raza de los saurios y por su apariencia reptiliana.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat 3, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -355,6 +377,7 @@ export default [
   {
     "id": "Goro",
     "name": "Goro",
+    "gender": "Hombre",
     "shortDescription": "Conocido por ser un príncipe Shokan y un guerrero de cuatro brazos.",
     "videogamesAppearances": "Mortal Kombat, Mortal Kombat II, Mortal Kombat Trilogy y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -371,6 +394,7 @@ export default [
   {
     "id": "Shinnok",
     "name": "Shinnok",
+    "gender": "Hombre",
     "shortDescription": "Dios antiguo caído y señor del Infierno conocido por su malicia y su sed de poder.",
     "videogamesAppearances": "Mortal Kombat 4, Mortal Kombat X y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-2.jpg",
@@ -387,6 +411,7 @@ export default [
   {
     "id": "Quan-Chi",
     "name": "Quan Chi",
+    "gender": "Hombre",
     "shortDescription": "Luchador conocido por ser un hechicero y maestro de la magia negra.",
     "videogamesAppearances": "Mortal Kombat Mythologies: Sub-Zero, Mortal Kombat 4, Mortal Kombat X, Mortal Kombat 11 y otros.",
     "imageUrl": "https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/tarjetas%20MK-5.jpg",
