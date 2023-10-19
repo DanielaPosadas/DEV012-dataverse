@@ -1,18 +1,9 @@
-import { filtroLet1, filtroLet2, filtroLet3, filtroLet4, filtroRein1, filtroRein2, filtroRein3, filtroRein4, ordenaGen, ordenaGen2 } from './dataFunctions.js';
+import { filtroLet1, filtroLet2, filtroLet3, filtroLet4, filtroRein1, filtroRein2, filtroRein3, filtroRein4, ordenaGen, ordenaGen2, ordenaAZ } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
 const contenedorLista = document.getElementById("root");
 contenedorLista.appendChild(renderItems(data));
-
-
-//Las tarjetas
-const boton = document.querySelector('[data-testid="button-clear"]');
-boton.addEventListener('click', limpiar);
-
-function limpiar(){
-
-}
 
 //Seleccionar la opcion del filtro
 const filtrarLetalidad = document.getElementById("filtrar-por-letality");
@@ -35,8 +26,9 @@ function filtrosLetalidad(){
     } else if(optionSelect.value === "Bajo"){
         const dataFiltrada = filtroLet4(data);
         contenedorLista.appendChild(renderItems(dataFiltrada));
-}
-}
+    } else if(optionSelect.value === "nada"){
+        contenedorLista.appendChild(renderItems(data));
+    }};
 
 //Seleccionar la opcion del filtro
 const filtrarReino = document.getElementById("filtrar-por-kingdom");
@@ -59,18 +51,23 @@ function filtrosReino(){
     } else if(optionSelect.value === "Netherrealm"){
         const dataFiltrada = filtroRein4(data);
         contenedorLista.appendChild(renderItems(dataFiltrada));
-}
+    } else if(optionSelect.value === "nada"){
+        contenedorLista.appendChild(renderItems(data));
+    }
 }
 
-const ordenarSex = document.getElementById("ordenar-por");
-ordenarSex.addEventListener("change", OrdenarGender);
+const ordenarPersonajes = document.getElementById("ordenar-por");
+ordenarPersonajes.addEventListener("change", Ordenar);
 
-function OrdenarGender(){
-    const indice = ordenarSex.selectedIndex;
-    const optionSelect = ordenarSex.options[indice];
+function Ordenar(){
+    const indice = ordenarPersonajes.selectedIndex;
+    const optionSelect = ordenarPersonajes.options[indice];
     console.log(optionSelect.value);
     contenedorLista.innerHTML='';
-    if(optionSelect.value === "Mujer"){
+    if (optionSelect.value === "asc"){
+        const dataFiltrada = ordenaAZ(data);
+        contenedorLista.appendChild(renderItems(dataFiltrada));
+    } else if(optionSelect.value === "Mujer"){
         const dataFiltrada = ordenaGen(data);
         contenedorLista.appendChild(renderItems(dataFiltrada));
     } else if(optionSelect.value === "Hombre"){
@@ -78,5 +75,16 @@ function OrdenarGender(){
         contenedorLista.appendChild(renderItems(dataFiltrada)); 
     }};
 
+//Las tarjetas
+const boton = document.querySelector('[data-testid="button-clear"]');
+boton.addEventListener('click', limpiar);
 
+function limpiar(){
+  filtrarLetalidad.value = "";
+  filtrarReino.value = "";
+  ordenarPersonajes.value = "";
+  contenedorLista.innerHTML='';
+  contenedorLista.appendChild(renderItems(data));
+};
+  
 //console.log(example, renderItems(data), data);

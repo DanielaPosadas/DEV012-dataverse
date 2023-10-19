@@ -42,21 +42,35 @@ export const filtroRein4 = (data) => {
 
 // FUNCIONES ORDENAMIENTO GÉNERO
 export const ordenaGen = (data) => {
-//const orden = {"Alto": 1, "Moderado": 2, "Moderado-bajo": 3, "Bajo": 4};
-const ordenGenM = data.sort((a , b) => {
+  const sinFiltrar = data.filter (items => items.gender === "Mujer" || "Hombre");
+const ordenGenM = sinFiltrar.sort((a , b) => {
   if(a.gender === "Mujer"){
     return -1
-  } else {return 1}
+  } else if (b.gender === "Hombre")
+  {return 1}
 });
 return ordenGenM;
 };
 
 export const ordenaGen2 = (data) => {
-  //const orden = {"Alto": 1, "Moderado": 2, "Moderado-bajo": 3, "Bajo": 4};
-  const ordenGenH = data.sort((a , b) => {
+  const sinFiltrar = data.filter (items => items.gender === "Hombre" || "Mujer");
+  const ordenGenH = sinFiltrar.sort((a , b) => {
     if(a.gender === "Hombre"){
       return -1
-    } else {return 1}
+    } else if(b.gender === "Mujer"){
+      return 1}
   });
   return ordenGenH;
   };
+
+export const ordenaAZ = (data) => {
+  const sinFiltrar = data.filter (items => items.name);
+  const ordenNameAz = sinFiltrar.sort((a , b) => {
+   if(a.name < b.name){
+    return -1;
+    } else if(a.name > b.name){
+      return 1;
+      }
+    });
+    return ordenNameAz;
+    };
