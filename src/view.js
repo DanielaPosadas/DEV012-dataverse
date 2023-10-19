@@ -4,7 +4,7 @@ export const renderItems = (data) => {
   const ulista = document.createElement('ul');
   ulista.setAttribute("class","lista-de-personajes");
 
-  for (let p of data) {
+  for (const p of data) {
 
     const ilista = document.createElement('li');
 
