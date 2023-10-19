@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Cinzel:wght@400;500&family=Poppins:wght@200&display=swap" rel="stylesheet">
   </head>
-  <header>
+  <header> 
     <img id="header" src="https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/logo%20MK-grande.png">
+    <!-- <h1 id="Mortal-frase" class="quote">Escojan bien sus batallas, si escogen una pelea asegurende se poder terminarla.</h1> -->
   </header>
   <body>
     <script src="main.js" type="module"></script>
     <div id="filtros">
       <label for="filtrar-por-letality">Filtrar por letalidad</label>
       <select data-testid="select-filter" name="letality" id="filtrar-por-letality">
-      <option></option>
+      <option value="nada"></option>
       <option value="Alto">Alto</option>
       <option value="Moderado">Moderado</option>
       <option value="Moderado-bajo">Moderado-bajo</option>
@@ -22,7 +23,7 @@
     </select>
     <label for="filtrar-por-kingdom">Filtrar por reino</label>
       <select data-testid="select-filter" name="Kingdom" id="filtrar-por-kingdom">
-      <option></option>
+      <option value="nada"></option>
       <option value="Cielo">Cielo</option>
       <option value="Earthrealm">Earthrealm</option>
       <option value="Outworld">Outworld</option>
@@ -30,7 +31,7 @@
     </select>
     <label for="ordenar-por">Ordenar por</label>
     <select data-testid="select-sort" name="alfabet" id="ordenar-por">
-      <option></option>
+      <option value="nada"></option>
       <option value="asc">A - Z</option>
       <option value="Mujer">Mujer-Hombre</option>
       <option value="Hombre">Hombre-Mujer</option>

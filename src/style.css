@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
     justify-content: center;
     text-align: center;
     background-color: #7B6043;
@@ -12,8 +12,19 @@ header {
     padding-bottom: 10px;
 }
 
+/*.quote {
+   display:grid;
+   color: #c19e79;
+   font-family: 'Poppins', sans-serif;
+   margin-top: 3px;
+   font-size: 10px;
+   font-style: italic;
+   text-align:center;
+   justify-content:center;
+}*/
+
 #header {
-    margin-top: 7px;
+    margin-top: 10px;
     width: 780px;
     height: 150px;
 
