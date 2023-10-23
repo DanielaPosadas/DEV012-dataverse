@@ -6,9 +6,9 @@ const contenedorLista = document.getElementById("root");
 contenedorLista.appendChild(renderItems(data));
 
 //Seleccionar la opcion del filtro letalidad
-const filtrarLetalidad = document.getElementById("filtrar-por-letality");
-const filtrarReino = document.getElementById("filtrar-por-kingdom");
-const ordenarPersonajes = document.getElementById("ordenar-por");
+const filtrarLetalidad = document.querySelector('[id="filtrar-por-letality"]');
+const filtrarReino = document.querySelector('[id="filtrar-por-kingdom"]');
+const ordenarPersonajes = document.querySelector('[id="ordenar-por"]');
 
 filtrarLetalidad.addEventListener("change", filtros);
 filtrarReino.addEventListener("change", filtros);
@@ -25,11 +25,10 @@ function filtros(){
 
   const dataFiltrada = filtroLet0(data, optionSelect.value, optionSelectReino.value, optionSelect_orden.value);
   contenedorLista.appendChild(renderItems(dataFiltrada));
-  };
+}
 
 
-/*
-  //Seleccionar la opcion del filtro
+/*//Seleccionar la opcion del filtro
   const filtrarLetalidad = document.getElementById("filtrar-por-letality");
   filtrarLetalidad.addEventListener("change", filtrosLetalidad);
 
@@ -52,7 +51,6 @@ function filtros(){
   } else if(optionSelect.value === "nada"){
     contenedorLista.appendChild(renderItems(data));
   }}*/
-
 //Seleccionar la opcion del filtro
 /*const filtrarReino = document.getElementById("filtrar-por-kingdom");
 filtrarReino.addEventListener("change", filtrosReino);

@@ -1,25 +1,23 @@
 // FUNCIONES FILTRO DE LETALIDAD
- export const filtroLet0 = (data,letalidad,reino,orden) => {
-  console.log(letalidad,reino,orden);
+export const filtroLet0 = (data,letalidad,reino,orden) => {
    let data_filtrada = data;
-  if (letalidad !== 'nada'){
+ if (letalidad !== 'nada'){
     data_filtrada = filtro_letalidad(data_filtrada,letalidad);
   }
   if (reino !== 'nada'){
     data_filtrada = filtro_reino(data_filtrada,reino);
   }
       if (orden === "asc"){
-      data_filtrada = ordenaAZ(data_filtrada);
-      //contenedorLista.appendChild(renderItems(dataFiltrada));
-    } else if(orden === "Mujer"){
-      data_filtrada = ordenaGen(data_filtrada);
-      //contenedorLista.appendChild(renderItems(dataFiltrada));
-    } else if(orden === "Hombre"){
-      data_filtrada = ordenaGen2(data_filtrada);
-      //contenedorLista.appendChild(renderItems(dataFiltrada)); 
-    }  
-
-  return data_filtrada;
+  data_filtrada = ordenaAZ(data_filtrada);
+    //contenedorLista.appendChild(renderItems(dataFiltrada));
+  } else if(orden === "Mujer"){
+    data_filtrada = ordenaGen(data_filtrada);
+    //contenedorLista.appendChild(renderItems(dataFiltrada));
+  } else if(orden === "Hombre"){
+    data_filtrada = ordenaGen2(data_filtrada);
+    //contenedorLista.appendChild(renderItems(dataFiltrada)); 
+  }  
+ return data_filtrada;
 };
 
 export const filtro_letalidad = (data,letalidad) => {
@@ -34,7 +32,7 @@ export const filtro_reino = (data,reino) => {
 
   /*
 export const filtroLet1 = (data) => {
-  const filtro1 = data.filter(items => items.facts.lethalityLevel === "Alto");
+const filtro1 = data.filter(items => items.facts.lethalityLevel === "Alto");
   return filtro1;
 };  
  

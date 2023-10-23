@@ -7,6 +7,9 @@ export const renderItems = (data) => {
   for (const p of data) {
 
     const ilista = document.createElement('li');
+    ilista.setAttribute("class","lista");
+    ilista.setAttribute("itemscope","");
+    ilista.setAttribute("itemtype","Personajes-MK");
 
     //Meter todos los li dentro del ul
     ulista.appendChild(ilista);
