@@ -147,11 +147,11 @@ footer {
     color: #ffffff;
     font-family: 'Cinzel', serif;
     font-size: 12px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
     height: 100%;
-    position: absoluteS;
     bottom: 0;
     width: 100%;
 }
