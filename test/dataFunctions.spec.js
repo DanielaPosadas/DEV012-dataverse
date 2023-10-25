@@ -1,20 +1,29 @@
-import { filtroLet0, anotherExample } from '../src/dataFunctions.js';
-import { data as fakeData } from './data.js';
+import { filtro_letalidad,filtro_reino,filtro_letalidadmb } from "../src/dataFunctions.js";
+import { data as fakeData } from "./data.js";
 
 //console.log(fakeData);
 
-const TEST_FILTRO_LEVEL = 'Alto'
+const TEST_FILTRO_LEVEL = "Alto";
+const TEST_FILTRO_REINO = "Earthrealm";
+const TEST_FILTRO_MB = "Moderado-bajo";
 
-describe(filtroLet0, (fakeData) => {
-
-  it('returns `Scorpion y Sub Zero for`' + TEST_FILTRO_LEVEL + '', () => {
-    expect(filtroLet0(TEST_FILTRO_LEVEL)).toBe('Scorpion' + 'Sub Zero');
+describe("filtro_letalidad", () => {
+  it("deberia devolver 2 personajes al filtro letalidad Alto", () => {
+    const letalidad_alta = filtro_letalidad(fakeData, TEST_FILTRO_LEVEL);
+    expect(letalidad_alta.length).toBe(2);
   });
 });
 
-describe('anotherExample', () => {
+describe("filtro_reino", () => {
+  it("deberia devolver 4 personajes al filtro reino Earthrealm", () => {
+    const reino_earthrealm = filtro_reino(fakeData, TEST_FILTRO_REINO);
+    expect(reino_earthrealm.length).toBe(4);
+  });
+});
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+describe("filtro_letalidadmb", () => {
+  it("deberia devolver 1 personaje al filtro moderado-bajo", () => {
+    const letalidad_mbajo = filtro_letalidadmb(fakeData, TEST_FILTRO_MB);
+    expect(letalidad_mbajo.length).toBe(1);
   });
 });

@@ -1,6 +1,6 @@
-import { filtroLet0 } from './dataFunctions.js';
-import { renderItems } from './view.js';
-import data from './data/dataset.js';
+import { filtroLet0,computeStats } from "./dataFunctions.js";
+import { renderItems } from "./view.js";
+import data from "./data/dataset.js";
 
 const contenedorLista = document.getElementById("root");
 contenedorLista.appendChild(renderItems(data));
@@ -14,19 +14,23 @@ filtrarLetalidad.addEventListener("change", filtros);
 filtrarReino.addEventListener("change", filtros);
 ordenarPersonajes.addEventListener("change", filtros);
 
-function filtros(){
+function filtros() {
   const indice = filtrarLetalidad.selectedIndex;
   const optionSelect = filtrarLetalidad.options[indice];
   const indiceReino = filtrarReino.selectedIndex;
   const optionSelectReino = filtrarReino.options[indiceReino];
   const indice_orden = ordenarPersonajes.selectedIndex;
   const optionSelect_orden = ordenarPersonajes.options[indice_orden];
-  contenedorLista.innerHTML='';
+  contenedorLista.innerHTML = "";
 
-  const dataFiltrada = filtroLet0(data, optionSelect.value, optionSelectReino.value, optionSelect_orden.value);
+  const dataFiltrada = filtroLet0(
+    data,
+    optionSelect.value,
+    optionSelectReino.value,
+    optionSelect_orden.value
+  );
   contenedorLista.appendChild(renderItems(dataFiltrada));
 }
-
 
 /*//Seleccionar la opcion del filtro
   const filtrarLetalidad = document.getElementById("filtrar-por-letality");
@@ -100,14 +104,15 @@ function Ordenar(){
 */
 //Las tarjetas
 const boton = document.querySelector('[data-testid="button-clear"]');
-boton.addEventListener('click', limpiar);
+boton.addEventListener("click", limpiar);
 
-function limpiar(){
-  filtrarLetalidad.value = "";
-  filtrarReino.value = "";
-  ordenarPersonajes.value = "";
-  contenedorLista.innerHTML='';
+function limpiar() {
+  filtrarLetalidad.value = "nada";
+  filtrarReino.value = "nada";
+  ordenarPersonajes.value = "nada";
+  contenedorLista.innerHTML = "";
   contenedorLista.appendChild(renderItems(data));
 }
-  
-//console.log(example, renderItems(data), data);
+
+const totalPersonajes = document.querySelector('[id="conteo-personajes"]');
+totalPersonajes.textContent = "Total personajes: " + computeStats(data);

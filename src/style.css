@@ -12,7 +12,14 @@ header {
     padding-bottom: 10px;
 }
 
-.quote {
+p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+}
+
+h1 {
    display:none;
    color: #303030;
    font-family: 'Poppins', sans-serif;
