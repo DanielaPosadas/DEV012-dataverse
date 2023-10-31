@@ -1,0 +1,4 @@
+
+> data-lovers@1.0.0 pretest
+> npm run eslint && npm run htmlhint
+
