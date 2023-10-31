@@ -102,6 +102,7 @@ function Ordenar(){
   }
 }
 */
+
 //Las tarjetas
 const boton = document.querySelector('[data-testid="button-clear"]');
 boton.addEventListener("click", limpiar);
