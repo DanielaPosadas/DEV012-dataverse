@@ -169,13 +169,13 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 
 A lo largo del proyecto implementamos 11 pruebas unitarias a los filtros de letalidad, reino y a los ordenamientos A-Z y género. Dentro de estas pruebas unitarias hicimos uso de diversos jest test typecSript:
 
-    * .ToBe
-    * .toHaveProperty
-    * .not.toContain
-    * .not.toHaveProperty
-    * .toHaveLength
-    * .toMatchObject
-    * .toEqual
+    .ToBe
+    .toHaveProperty
+    .not.toContain
+    .not.toHaveProperty
+    .toHaveLength
+    .toMatchObject
+    .toEqual
 
 Las pruebas dan al proyecto una cobertura del 70% de statements.
 
