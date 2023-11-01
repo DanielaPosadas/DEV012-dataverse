@@ -31,7 +31,7 @@ Sabemos que en la actualidad recurrimos a diversos dispositivos por lo cual, en 
 
 ## 3. Prompting con IA
 
-![Captura-prompting](https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/Img%20readme/prompting1.png width=400px) ![Captura-prompting](https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/Img%20readme/prompting2.png width=400px)
+![Captura-prompting](https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/Img%20readme/prompting.png)
 
 La data elegida para este proyecto fue del videojuego Mortal Kombat por su gama de personajes e información que posee. Para obtener el set de datos se recurrió a la inteligencia artificial solicitando lo siguiente:
 
@@ -63,7 +63,7 @@ Esta aplicación web ha sido diseñada a partir de prototipos de baja y alta fid
 
 El prototipo de baja fidelidad fue diseñado a lápiz y papel tanto para ordenadores como para télefonos celulares.
 
-![Captura-prompting](https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/Img%20readme/Prot-baja.jpeg width=400px) ![Captura-prompting](https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/Img%20readme/Prot-baja-mobile.jpeg width=400px)
+![Captura-prototipo](https://raw.githubusercontent.com/DanielaPosadas/DEV012-dataverse/main/Img%20readme/baja.png)
 
 ### Prototipo de alta fidelidad
 
