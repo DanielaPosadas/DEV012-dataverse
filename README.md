@@ -181,5 +181,5 @@ Las pruebas dan al proyecto una cobertura del 70% de statements.
 
 ## 10. Desarrolladoras web
 
-| [<img src="https://avatars.githubusercontent.com/u/144648301?v=4" width=115><br><sub>Daniela Posadas</sub>](https://github.com/DanielaPosadas) |  [<img src="https://avatars.githubusercontent.com/u/143117858?v=4" width=115><br><sub>Paulina Cabrera</sub>]([https://github.com/Paulinakbrr]) |
+| [<img src="https://avatars.githubusercontent.com/u/144648301?v=4" width=115><br><sub>Daniela Posadas</sub>](https://github.com/DanielaPosadas) |  [<img src="https://avatars.githubusercontent.com/u/143117858?v=4" width=115><br><sub>Paulina Cabrera</sub>](https://github.com/Paulinakbrr) |
 | :---: | :---: |
