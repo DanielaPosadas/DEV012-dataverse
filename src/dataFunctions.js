@@ -1,12 +1,16 @@
-// FUNCIONES FILTRO DE LETALIDAD
+// ASIGNAR <OPTION>`S A LA DATA
 export const filtroLet0 = (data, letalidad, reino, orden) => {
   let data_filtrada = data;
+
+  //FILTRAR LETALIDAD Y REINO
   if (letalidad !== "nada") {
     data_filtrada = filtro_letalidad(data_filtrada, letalidad);
   }
   if (reino !== "nada") {
     data_filtrada = filtro_reino(data_filtrada, reino);
   }
+  
+//ORDENAR ASC, GENERO H-M O M-H
   if (orden === "asc") {
     data_filtrada = ordenaAZ(data_filtrada);
   } else if (orden === "Mujer") {
@@ -17,6 +21,7 @@ export const filtroLet0 = (data, letalidad, reino, orden) => {
   return data_filtrada;
 };
 
+//FILTRAR DATA PARA OBTENER SOLO FACTS.LETHALITYLEVEL
 export const filtro_letalidad = (data, letalidad) => {
   const filtro1 = data.filter(
     (items) => items.facts.lethalityLevel === letalidad
@@ -24,6 +29,7 @@ export const filtro_letalidad = (data, letalidad) => {
   return filtro1;
 };
 
+//FILTRAR DATA PARA OBTENER SOLO FACTS.KINGDOM
 export const filtro_reino = (data, reino) => {
   const filtro1 = data.filter((items) => items.facts.kingdom === reino);
   return filtro1;
@@ -58,6 +64,7 @@ export const ordenaGen2 = (data) => {
   return ordenGenH;
 };
 
+//FUNCION ORDENAMIENTO DE A - Z
 export const ordenaAZ = (data) => {
   const sinFiltrar = data.filter((items) => items.name);
   const ordenNameAz = sinFiltrar.sort((a, b) => {
@@ -70,7 +77,7 @@ export const ordenaAZ = (data) => {
   return ordenNameAz;
 };
 
-//COMPUTE-STATS
+//COMPUTE-STATS PARA CALCULO DEL TOTAL DE PERSONAJES
 export const computeStats = (data) => {
   const newPersonajes = data.map((personajes) => personajes.gender);
   const conteoPersonajes = newPersonajes.reduce((total) => {

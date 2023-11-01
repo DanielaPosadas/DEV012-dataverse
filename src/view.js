@@ -17,6 +17,7 @@ export const renderItems = (data) => {
     //Meter los <dl> dentro de los <li>
     const dlDescriptiva = document.createElement('dl');
     ilista.appendChild(dlDescriptiva);
+    
     //Agregar atributo itemscope e itemtype a los <dl>
     dlDescriptiva.setAttribute("itemscope", "");
     dlDescriptiva.setAttribute("itemtype", "Personajes-MK");
